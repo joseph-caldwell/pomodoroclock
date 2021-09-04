@@ -1,0 +1,44 @@
+* {
+  box-sizing:border-box;
+}
+body{
+  
+  background-color: darkblue;
+  color:white;
+  font-family:algerian;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  text-align:center;
+}
+
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.timer-container{
+  margin:20px;
+}
+.timer-container h1{
+  text-align:center;
+}
+
+ button{
+   cursor:pointer;
+  background-color:transparent;
+  color:#fff;
+  font-size:20px;
+  padding:10px 15px;
+  margin: 10px;
+}
+.clock-container{
+  border: 2px solid #fff;
+  padding:10px ;
+  border-radius:10px;
+  text-align:center;
+  display:inline-block;
+  margin:20px;
+  width:300px;
+}
